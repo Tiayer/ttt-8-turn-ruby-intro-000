@@ -42,5 +42,6 @@ input_to_index(user_input)
 if valid_move?(board, input_to_index(user_input)) == true
 else
   user_input = gets.strip
+  input_to_index(user_input)
 end
 end
